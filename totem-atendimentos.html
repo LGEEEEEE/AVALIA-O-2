@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RELATÓRIO DE ATENDIMENTOS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <style>
+        .btn{
+            width: 100%;
+            height: 150px;
+            font-size: 25px;
+        }
+        .row div{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="painel1.html">ATENDEFÁCIL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="tela-home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cadastros
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="cadastro-operador.html">Cadastro de Atendente</a></li>
+              <li><a class="dropdown-item" href="cadastro-senhas.html">Cadastro de Senhas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="cadastro-guiche.html">Cadastro de Guichês</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Relatórios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="relatorios-atendimentos.html">Relatórios de Atendimento</a></li>
+              <li><a class="dropdown-item" href="relatorios-senhas.html">Relatórios de Senhas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="relatorios-guiches.html">Relatórios de Guichês</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Configurações
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Configurações de Atendente</a></li>
+              <li><a class="dropdown-item" href="#">Configurações de Senhas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Configurações de Guichês</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Sair</a>
+        </li> 
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>           
+
+      </div>
+    </div>
+  </nav>
+  <br><br>
+
+
+      <div class="container text-center">
+        <h1>TOTEM DE ATENDIMENTO</h1>
+
+        <div class="row gx-1 gy-3">
+            <div class="col-6">
+                <button type="button" class="btn btn-secondary">ATENDIMENTO ENERGIA ELÉTRICA</button>
+            </div>
+            <div class="col-6">
+                <button type="button" class="btn btn-secondary">ATENDIMENTO SOCIAL</button>
+            </div>
+            <div class="col-6">
+                <button type="button" class="btn btn-secondary">ATENDIMENTO EDUCACIONAL</button>
+            </div>
+            <div class="col-6">
+                <button type="button" class="btn btn-secondary">ATENDIMENTO PISCOLÓGICO</button>
+            </div>
+            <div class="col-6">
+                <button type="button" class="btn btn-secondary">ATENDIMENTO FINANCEIRO</button>
+            </div>
+            <div class="col-6">
+                <button type="button" class="btn btn-secondary">ATENDIMENTO ETÁRIO</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
